@@ -1,4 +1,4 @@
-# udacity-diceroller
+# Dice Roller from Udacity Class
 ### Keterangan
 Repositori ini berisi source code aplikasi Dice Roller (dengan perubahan) di kelas Udacity.
 ### Screenshot
