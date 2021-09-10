@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Aqua's Theme -->
+    <color name="aqua_primary">#FF00BCD4</color>
+    <color name="aqua_primary_variant">#FF0097A7</color>
+    <color name="aqua_primary_night">#FF80DEEA</color>
+    <color name="aqua_secondary">#FFA5D6A7</color>
+    <color name="aqua_secondary_variant">#FF388E3C</color>
+</resources>
