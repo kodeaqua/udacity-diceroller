@@ -11,6 +11,7 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
 
     lateinit var diceImage: ImageView
+    lateinit var resultDice: String
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,6 +35,10 @@ class MainActivity : AppCompatActivity() {
             5 -> R.drawable.dice_5
             else -> R.drawable.dice_6
         }
+
+        resultDice = getString(R.string.result) + randomInt.toString()
+
+        Toast.makeText(this, resultDice, Toast.LENGTH_SHORT).show()
         diceImage.setImageResource(drawableResource)
     }
 }
